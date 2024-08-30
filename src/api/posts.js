@@ -157,7 +157,7 @@ function validateTitleLength(data) {
 			throw new Error(`[[error:title-too-short, ${meta.config.minimumTitleLength}]]`);
 		} else if (data.title.length > meta.config.maximumTitleLength) {
 			throw new Error(`[[error:title-too-long, ${meta.config.maximumTitleLength}]]`);
-		}	
+		}
 	}
 }
 
